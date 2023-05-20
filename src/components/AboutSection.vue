@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="about">
     <div class="description">
       <div class="title">
         <div class="hide">
@@ -27,3 +27,37 @@
 <script setup>
 import home1 from '../assets/images/home1.png'
 </script>
+
+<style lang="scss" scoped>
+.about {
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5rem 10rem;
+  color: white;
+  .description {
+    flex: 1;
+    padding-right: 5rem;
+    h2 {
+      font-weight: lighter;
+    }
+
+    .title {
+      .hide {
+        overflow: hidden;
+      }
+    }
+  }
+
+  .image {
+    flex: 1;
+    overflow: hidden;
+    img {
+      width: 100%;
+      height: 80vh;
+      object-fit: cover;
+    }
+  }
+}
+</style>
