@@ -1,6 +1,6 @@
 <template>
   <main>
-    <h1>Haloooo dari Home</h1>
+    <h1>This is home</h1>
   </main>
 </template>
 
